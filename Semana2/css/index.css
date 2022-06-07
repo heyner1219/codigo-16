@@ -1,0 +1,111 @@
+h1 {
+    /* font-family */
+    /* que pasa si una fuente no existe */
+    /* en css tenemos la opcion de poner varios tipos de letra */
+    /* para que si la primera no existe css busque en la segunda y asi consecutivamente */
+    font-family: "Dancing Script";
+    font-size: 45px;
+    /* Font-weight tambien puede recibir numeros
+    iran de 100 a 900 */
+    /*  ! Importante: Al poner un peso en font-weight no hay que unidades de medida */
+    font-weight: 100;
+    /* text-decoration */
+    text-decoration: underline;
+  }
+  
+  /* * Nota:
+     * 700 = bold
+     * 900 = bolder
+   */
+  
+  .parrafo {
+    font-family: "Dank Mono", monospace;
+    /* font-size sirve para poder manejar el tamaño del texto */
+    font-size: 100px;
+    font-weight: bolder;
+  }
+  
+  /* un poco de teoria de colores */
+  /* 
+  Hexadecimal
+  RGB => Red Green Blue
+  RGBA => Red Green Blue Alpha
+  Alpha => Opacidad 0 - 1
+  hsl => Hue Saturation Lightness
+  */
+  
+  .link-a {
+    font-size: 32px;
+    font-family: "Blaka";
+    /* Al poner none en una propiedad estamos invalidandola */
+    text-decoration: none;
+    /* Con la propiad color: sirve para poder cambiar el color de un texto */
+    /* Hexadecimal: Es una forma en la cual podemos aplicar un color basada en 6 digitos
+    alfanumericos */
+    color: rgb(53, 146, 239);
+  }
+  
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  ul {
+    background-color: rgba(53, 146, 239, 0.3);
+  }
+  
+  .span-1 {
+    text-decoration: line-through;
+    text-transform: capitalize;
+  }
+  
+  .span-2 {
+    text-decoration: overline;
+  }
+  
+  .span-3 {
+    text-decoration: underline;
+    text-transform: uppercase;
+  }
+  
+  .span-4 {
+    text-decoration: line-through;
+    text-decoration-color: #f01;
+  }
+  
+  .span-5 {
+    text-decoration: overline;
+    background-color: #0ba;
+    text-decoration-color: #fff;
+  }
+  
+  /* 
+    lowercase => Minusculas
+    uppercase => mayusculas
+    capitalize => Primera del text en mayuscula
+   */
+  
+  .span-6 {
+    color: #fff;
+    text-decoration: underline;
+    background-color: rgb(252, 90, 255);
+    text-decoration-color: rgb(255, 183, 0);
+    /* Estamos indicando que el texto sea en minusiculas */
+    text-transform: lowercase;
+  }
+  @font-face {
+      font-family: "Dancing Script";
+      src: url("../fonts/DancingScript-VariableFont_wght.ttf");
+  }
+  @font-face {
+    font-family: "Blaka";
+    src: url("../fonts/Blaka-Regular.ttf");
+}
+.title-2 {
+    font-family: "Blaka";
+    font-size: 40px;
+  }
+  
+  .parrafo-2 {
+    font-family: "Dancing Script";
+    font-size: 40px;
+  }
