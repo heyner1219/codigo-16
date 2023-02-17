@@ -1,0 +1,107 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Outfit", sans-serif;
+  }
+
+.contenedor {
+    background-color: hsl(217,  54%, 11%);
+    height: 100vh;
+  }
+.contenedor-interno {
+    width: 350px;
+    background-color: hsl(216, 50%, 16%);
+    text-align: center;
+    padding: 15px;
+    border-radius: 20px;
+    margin: auto;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    height: 70vh;
+  }
+img {
+    width: 345px;
+    border-radius: 16px;
+    margin-bottom: 10px;    
+  }
+h4 {
+    width: 100%;
+    margin: auto;
+    text-align: left;
+    margin-bottom: 10px;
+    color: hsl(0, 0%, 100%);
+    font-size: 26px;
+
+  }
+.caja{
+    /* border: 1px solid red; */
+    /* box-sizing: border-box; */
+    padding: 0px;
+    width: 40%;
+    float:left;
+    /* display: inline-block; */
+}
+  
+p{
+    width: 100%;
+    margin: auto;
+    margin-bottom: 10px;
+  }
+.parrafo{
+    color: hsl(215, 51%, 70%);
+    text-align: left;
+    font-size: 18px;
+  }
+.ETH{
+    color: hsl(178, 100%, 50%);
+    text-align: left;
+    font-size: 18px;
+    float: left;
+  }
+
+.reloj{
+  height: 25px;
+  width: 25px;
+  float: left;
+  /* text-align: right; */
+  padding: 0px 0px 0px 80px;
+}
+.diamante{
+  height: 25px;
+  width: 25px;
+  float: left;
+}
+.parrafo2{
+    color: hsl(215, 51%, 70%);
+    text-align: right; 
+    padding: 0px 50px 0px 0px;   
+  }
+
+.parrafo3{
+    color: hsl(215, 51%, 70%);
+    text-align: left;
+    /* width: 10%; */
+    /* display: inline-block; */
+    float: left;
+  }
+.j{
+    color: hsl(0, 0%, 100%);
+    /* display: inline-block; */
+    float: left;
+    text-align: left;
+  }
+ 
+.avatar{
+    height: 35px;
+    width: 35px;
+    /* float: left; */
+    border: white 0.3px solid;
+  }
+.linea{
+  width: 80%;
+  height: 1px;
+  background-color: black;
+}
+  
+  

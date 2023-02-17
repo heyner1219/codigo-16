@@ -1,0 +1,35 @@
+body{
+    background-color: rgb(190, 190,190);
+}
+
+#contenedor{
+    width: 900px;
+    height: 200px;
+    /* background: linear-gradient(red , blue  10%, green 100%) ; */
+    /* background:
+    /* linear-gradient(
+      to right,
+      black 0%,     Color 100% negro en el punto 0% y comienza a cambiar
+      blue 25%,     Color 100% azul en el punto 25% y comienza a cambiar
+      gold 50%,     Color 100% dorado en el punto 50% y comienza a cambiar
+      green 75%,    Color 100% verde en el punto 75% y comienza a cambiar
+      red 100%      /* Color 100% rojo en el punto 100% */
+    /* ); */
+    background:
+    linear-gradient(
+      to right,
+      red 33%,     
+      white 33%,
+      white 66%,     
+      red 66%   
+    );
+    margin: auto;
+}
+
+.sombra{
+    box-shadow: -20px -20px 10px -10px rgb(34, 34, 20);
+}
+
+.sombra_texto{
+    text-shadow: 10px 10px 0px yellow;
+}

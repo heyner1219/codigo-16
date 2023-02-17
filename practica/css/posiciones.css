@@ -1,0 +1,21 @@
+body{
+    font-family: Verdana;
+}
+
+.bg {
+    border: solid;
+    height: 300px;
+}
+.color-red{
+    background-color: red;
+    /* background: red; */
+}
+
+.color-green{
+    background-color: green;
+}
+.bg-img{
+    background: url("../../semana1/images/tasa.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
