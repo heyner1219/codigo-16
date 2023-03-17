@@ -1,0 +1,19 @@
+h1 {
+    font-family: apple-system, Helvetica, Arial, sans-serif;
+    font-size: 45px;
+    font-weight: 100;
+    text-decoration: underline;
+}
+
+.parrafo {
+    font-family: "Dank Mono", monospace;
+    font-size: 100px;
+    font-weight: bold;
+}
+
+.link-a {
+    font-size: 32px;
+    font-family: "Dank Mono";
+    text-decoration: none;
+    color: #af1;
+}
