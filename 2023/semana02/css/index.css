@@ -14,11 +14,47 @@ h1 {
 .link-a {
     font-size: 32px;
     font-family: "Dank Mono";
-    text-decoration: none;
+    text-decoration: none;   
     color: #af1;
 }
 
 body {
     font-family: Arial, Helvetica, sans-serif;
     color: blue;
+}
+
+ul {
+    background-color: rgba(53, 146, 239, 0.3);
+}
+.span-1 {
+    text-decoration: line-through;
+    text-transform: capitalize;
+}
+
+.span-2 {
+    text-decoration: overline;
+}
+
+.span-3 {
+    text-decoration: underline;
+    text-transform: uppercase;
+}
+
+.span-4 {
+    text-decoration: line-through;
+    text-decoration-color: #f01;
+}
+
+.span-5 {
+    text-decoration: overline;
+    background-color: #0ba;
+    text-decoration-color: black;
+}
+
+.span-6 {
+    color: #fff;
+    text-decoration: underline;
+    background-color: rgb(252, 90, 255);
+    text-decoration-color: black;
+    text-transform: lowercase;
 }
