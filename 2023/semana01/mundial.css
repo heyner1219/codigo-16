@@ -1,0 +1,13 @@
+body {
+    font-family: 'Play';
+    
+    text-transform: none;
+    color: black;
+}
+
+body table tr td a {
+    font-family: 'Play';
+    text-decoration: none;    
+    text-transform: lowercase;
+    color: black;
+}
