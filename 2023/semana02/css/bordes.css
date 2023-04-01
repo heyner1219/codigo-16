@@ -1,0 +1,60 @@
+html {
+    font-size: 13px;
+}
+
+body {
+     margin-left: 40px;
+     margin-right: 40px;
+     font-size: 20px;
+}
+
+h1 {
+    font-size: 3rem;
+
+}
+
+
+p {
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+.solid {
+    border-style: solid;
+    border-color: brown;
+    border-width: 5px;
+}
+
+.dashed {
+    border-style: dashed;
+    border-color: green;
+    border-width: 2px;
+    font-weight: bold;
+}
+
+.dotted {
+    border: 3px dotted blue;
+}
+
+.small {
+    font-size: 0.6em;     /* 0.6 x 20px = 12px
+    
+    */
+}
+
+.double {
+    border-style: double;
+}
+
+.groove {
+    border-style: groove;
+}
+
+.left_solid {
+    border-left: solid red 2px;
+}
+
+.right_dotted {
+    border-right: dotted rgb(6, 3, 65) 3px;
+}
